@@ -1,0 +1,45 @@
+.thumb {
+    font-size: 20px;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    border: 2px dashed #444;
+    margin: 10px;
+    float: left
+}
+
+.text {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: http://cur.glitter-graphics.net/pub/3400/3400259spt91ya5cf.jpg;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center
+}
+
+.thumb:hover .text {
+    display: block;
+}
+
+p.page-description {
+    font-size: 25px;
+}
+
+.imagecontainer {
+    float: left;
+}
+
+p {
+    text-align: center;
+}
+
+
+html { 
+  background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/blue-turquoise-gradient-polygon-shaped-background-zoomed-in-and-zoomed-out-in-one-motion_nj5dnqsrl__M0000.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
